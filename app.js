@@ -30,8 +30,8 @@ function buttonOne () {
     }
 
     for (let i = 0; i < input; i++){
-        let numberUsed = document.createElement('p');
-        numberUsed.innerHTML =  input +" / " ;
+        let numberUsed = document.createElement('li');
+        numberUsed.innerHTML = " is used => "  + input  ;
         numberUsed.style.color = 'red';
         userSend.item(i).append(numberUsed);
     }
@@ -44,3 +44,4 @@ function textSend (text){
     textSend.innerHTML = text + " => ";
     lastDiv.append(textSend);
 }
+

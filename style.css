@@ -20,8 +20,9 @@ section {
     padding:1% ;
 }
 
-#use {
-    height: 200px;
-    width: 10%;
+#carre{
+    height: 250px;
+    width: 15%;
     background-color: lightgrey;
+    padding: 3%;
 }
